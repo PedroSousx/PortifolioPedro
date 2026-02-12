@@ -58,6 +58,7 @@ import Site_Airbnb from "../assets/Foto_dash_1.png";
 import Producao from "../assets/Producao.png";
 import info from "../assets/info.png";
 import Site_Genexus from "../assets/Site_Genexus.png";
+import NeedAlfer from "../assets/NeedAlfer.png";
 
 function Projects() {
 	const [selectedProject, setSelectedProject] = useState(null);
@@ -71,7 +72,7 @@ function Projects() {
             link: "https://protaziomusic.com.br/",
 			img: Site_Protazio,
 			description:
-				"Uma landing page desenvolvida para a escola de música Protázio Music, focando em performance, design responsivo e clareza visual.",
+				"Uma landing page desenvolvida para a escola de música Protázio Music, focando em performance, design responsivo e clareza visual. o Site apresenta informações gerais sobre a escola, desde os cursos oferecidos e seus professores até fotos do show de alunos no final do ano, além disso o site possui um formulário do novo aluno que chega diretamente no email do professor!",
 		},
 		{
 			id: 2,
@@ -80,7 +81,7 @@ function Projects() {
 			stack: "Python (pandas, dash e numpy)",
 			img: Site_Airbnb,
 			description:
-				"Dashboard interativo com análise de dados reais do Airbnb em Nova York. Inclui gráficos dinâmicos e regressão linear.",
+				"Dashboard interativo com análise de dados reais do Airbnb em Nova York. Inclui gráficos dinâmicos e regressão linear. Esse Software faz uma análise detalhada dos dados  utilizando bibliotecas como pandas, dash e numpy para criar gráficos interativos e realizar regressão linear, permitindo aos usuários explorar tendências e insights sobre o mercado de aluguel de curto prazo na cidade.",
 		},
 		{
 			id: 3,
@@ -89,16 +90,17 @@ function Projects() {
 			stack: "Genexus e SQL Server",
 			img: Site_Genexus,
 			description:
-				"Projeto feito em Genexus para simular uma loja de jogos, com cadastro, gerenciamento e integração de banco de dados.",
+				"Projeto feito em Genexus para simular uma loja de jogos completa, com cadastro de jogos, categorias, tipo de mídia, etc; até a venda dos jogos já fazendo automaticamente a geração da NFe e das Duplicatas. O sistema possui diversos tipos de relatórios diferentes para o usuário fazer a ánalise desejada dos dados.",
 		},
 		{
 			id: 4,
 			title: "Cardápio Online",
 			subtitle: "Need Salgados",
 			stack: "React e Tailwind",
-			img: Producao,
+			link: "https://pedrosousx.github.io/NeedAlfer/" ,
+			img: NeedAlfer,
 			description:
-				"Sistema web para cardápio digital",
+				"Sistema web feito para uma salgaderia local, que usa o cardápio digital para a visualização dos produtos e seus preços, além disso o site possui a apresentação do estabelecimento, a localização e informações de contato.",
 		},
 	];
 
