@@ -70,6 +70,7 @@ function Projects() {
 			subtitle: "Protázio Music",
 			stack: "HTML, CSS e Tailwind",
             link: "https://protaziomusic.com.br/",
+			target: "_blank",
 			img: Site_Protazio,
 			description:
 				"Uma landing page desenvolvida para a escola de música Protázio Music, focando em performance, design responsivo e clareza visual. o Site apresenta informações gerais sobre a escola, desde os cursos oferecidos e seus professores até fotos do show de alunos no final do ano, além disso o site possui um formulário do novo aluno que chega diretamente no email do professor!",
@@ -97,10 +98,11 @@ function Projects() {
 			title: "Cardápio Online",
 			subtitle: "Need Salgados",
 			stack: "React e Tailwind",
-			link: "https://pedrosousx.github.io/NeedAlfer/" ,
+			link: "https://pedrosousx.github.io/NeedAlfer/",
+			target: "_blank",
 			img: NeedAlfer,
 			description:
-				"Sistema web feito para uma salgaderia local, que usa o cardápio digital para a visualização dos produtos e seus preços, além disso o site possui a apresentação do estabelecimento, a localização e informações de contato.",
+				"Sistema web feito para uma pastelaria local, que usa o cardápio digital para a visualização dos produtos e seus preços, além disso o site possui a apresentação do estabelecimento, a localização e informações de contato.",
 		},
 	];
 
