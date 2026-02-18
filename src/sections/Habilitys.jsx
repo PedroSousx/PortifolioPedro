@@ -71,7 +71,7 @@ import tailwind from "../assets/tailwind.png";
 import reactlogo from "../assets/react.png";
 import gitlogo from "../assets/git.png";
 import pythonlogo from "../assets/python.png";
-import Genexus from "../assets/genexus.png";
+import Genexus from "../assets/Genexus.png";
 import sql from "../assets/sql-server.png";
 import bootstrap from "../assets/bootstrap.png";
 
