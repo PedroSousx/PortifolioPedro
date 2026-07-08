@@ -77,24 +77,6 @@ function Projects() {
 		},
 		{
 			id: 2,
-			title: "Dashboard",
-			subtitle: "Airbnb Nova York",
-			stack: "Python (pandas, dash e numpy)",
-			img: Site_Airbnb,
-			description:
-				"Dashboard interativo com análise de dados reais do Airbnb em Nova York. Inclui gráficos dinâmicos e regressão linear. Esse Software faz uma análise detalhada dos dados  utilizando bibliotecas como pandas, dash e numpy para criar gráficos interativos e realizar regressão linear, permitindo aos usuários explorar tendências e insights sobre o mercado de aluguel de curto prazo na cidade.",
-		},
-		{
-			id: 3,
-			title: "Loja de Jogos",
-			subtitle: "Genexus",
-			stack: "Genexus e SQL Server",
-			img: Site_Genexus,
-			description:
-				"Projeto feito em Genexus para simular uma loja de jogos completa, com cadastro de jogos, categorias, tipo de mídia, etc; até a venda dos jogos já fazendo automaticamente a geração da NFe e das Duplicatas. O sistema possui diversos tipos de relatórios diferentes para o usuário fazer a ánalise desejada dos dados.",
-		},
-		{
-			id: 4,
 			title: "Cardápio Online",
 			subtitle: "Need Salgados",
 			stack: "React e Tailwind",
@@ -103,6 +85,24 @@ function Projects() {
 			img: NeedAlfer,
 			description:
 				"Sistema web feito para uma pastelaria local, que usa o cardápio digital para a visualização dos produtos e seus preços, além disso o site possui a apresentação do estabelecimento, a localização e informações de contato.",
+		},
+		{
+			id: 3,
+			title: "Dashboard",
+			subtitle: "Airbnb Nova York",
+			stack: "Python (pandas, dash e numpy)",
+			img: Site_Airbnb,
+			description:
+				"Dashboard interativo com análise de dados reais do Airbnb em Nova York. Inclui gráficos dinâmicos e regressão linear. Esse Software faz uma análise detalhada dos dados  utilizando bibliotecas como pandas, dash e numpy para criar gráficos interativos e realizar regressão linear, permitindo aos usuários explorar tendências e insights sobre o mercado de aluguel de curto prazo na cidade.",
+		},
+		{
+			id: 4,
+			title: "Loja de Jogos",
+			subtitle: "Genexus",
+			stack: "Genexus e SQL Server",
+			img: Site_Genexus,
+			description:
+				"Projeto feito em Genexus para simular uma loja de jogos completa, com cadastro de jogos, categorias, tipo de mídia, etc; até a venda dos jogos já fazendo automaticamente a geração da NFe e das Duplicatas. O sistema possui diversos tipos de relatórios diferentes para o usuário fazer a ánalise desejada dos dados.",
 		},
 	];
 

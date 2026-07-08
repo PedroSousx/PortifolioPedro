@@ -67,6 +67,7 @@ import { motion } from "framer-motion";
 import htmllogo from "../assets/html.png";
 import csslogo from "../assets/css.png";
 import jslogo from "../assets/java-script.png";
+import node from "../assets/node.png";
 import tailwind from "../assets/tailwind.png";
 import reactlogo from "../assets/react.png";
 import gitlogo from "../assets/git.png";
@@ -74,6 +75,10 @@ import pythonlogo from "../assets/python.png";
 import Genexus from "../assets/Genexus.png";
 import sql from "../assets/sql-server.png";
 import bootstrap from "../assets/bootstrap.png";
+import next from "../assets/next.png";
+import typescript from "../assets/typescript.png";
+import postgres from "../assets/postgres.png";
+import oracle from "../assets/oracle.png";
 
 function Habilitys() {
   // Variantes de animação (entrar na tela)
@@ -93,14 +98,19 @@ function Habilitys() {
   };
 
   const skills = [
+    { img: next, name: "Next"},
+    { img: reactlogo, name: "React" },
+    { img: typescript, name: "Typescript"},
+    { img: jslogo, name: "JavaScript" },
+    { img: node, name: "Node" },
+    { img: tailwind, name: "Tailwind" },
     { img: htmllogo, name: "HTML" },
     { img: csslogo, name: "CSS" },
-    { img: jslogo, name: "JavaScript" },
-    { img: bootstrap, name: "Bootstrap" },
-    { img: reactlogo, name: "React" },
-    { img: tailwind, name: "Tailwind" },
-    { img: pythonlogo, name: "Python" },
     { img: sql, name: "SQL" },
+    { img: postgres, name: "Postgres" },
+    { img: oracle, name: "Oracle" },
+    { img: bootstrap, name: "Bootstrap" },
+    { img: pythonlogo, name: "Python" },
     { img: gitlogo, name: "Git" },
     { img: Genexus, name: "Genexus" },
   ];

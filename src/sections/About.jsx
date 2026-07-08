@@ -8,13 +8,13 @@ function About(){
             id: 1,
             period: '07/25 - presente',
             title: 'Desenvolvedor Full-Stack - CHB',
-            description: 'Atuo no desenvolvimento de soluções empresariais com Genexus, atendendo o setor de Folha de Pagamento e RH. Também atuo na parte de Front-End, criando interfaces responsivas com highcharts para melhorar a experiência do usuário.'
+            description: 'Desenvolvimento de software corporativo para os módulos de RH, Folha de Pagamento e ERP — sistemas em produção para dezenas de clientes. Criação do módulo NR-1 do zero (modelagem de tabelas, regras de negócio, procedures e configurações finais), hoje ativo em 26 clientes. Refatoração de filtros em 400+ relatórios para ganho de performance, com documentação técnica completa. Manutenção de esquemas relacionais em SQL Server, PostgreSQL e Oracle sem downtime.'
         },
         {
             id: 2,
             period: '08/24 - 07/25',
             title: 'Desenvolvedor Front-End - Barão Alpha',
-            description: 'Desenvolvimento de interfaces responsivas com atenção a performance, acessibilidade e experiências ricas para o usuário.'
+            description: 'Criação de interfaces responsivas em HTML e CSS puro para e-commerce. Aplicação de SEO on-page (estrutura semântica, meta tags e hierarquia de conteúdo) e redação de descrições de produtos com foco em conversão.'
         },
         {
             id: 3,
@@ -32,9 +32,11 @@ function About(){
                 <div className="flex flex-col md:flex-row gap-8 md:gap-12 text-lg md:text-4xl mt-10 md:mt-20 font-opensans leading-7 md:leading-10 md:px-36 text-justify font-light pb-20 md:pb-56">
                     {/* PARTE 1 */}
                     <div className="md:flex-3 md:w-3/5 md:pr-10 mb-8 md:mb-0">
-                        <p>Sou um desenvolvedor <span className='text-amber-400'>front-end</span> em formação, atualmente cursando Análise e Desenvolvimento de Sistemas na Fatec Franca. Trabalho com Genexus na empresa CHB, onde aplico na prática meus aprendizados e desenvolvo soluções reais para diferentes demandas.</p>
+                        <p>Desenvolvedor <span className='text-amber-400'>Front-End</span> em formação e com sede de aprendizado! Atualmente trabalho como desenvolvedor trainee na CHB no setor de RH, Folha de Pagamento e ERP.</p>
                         <br />
-                        <p>Além disso, atuo como <span className='text-amber-400'>freelancer</span>, criando interfaces modernas e funcionais como: landing pages, cardápios online e portfólios — sempre com foco em usabilidade e uma boa experiência do usuário.</p>
+                        <p>Além disso, atuo como <span className='text-amber-400'>freelancer</span>, criando interfaces modernas e funcionais como: landing pages, cardápios online e portfólios! Usando métodos com mobile-first e SEO sempre buscando o melhor para o usuário.</p>
+                        <br />
+                        <p><span className='text-amber-400'>Stack Principal: </span>React, Next.js, JavaScript, TypeScript e Tailwind CSS.</p>
                     </div>
                     {/* PARTE 2 */}
                     <div className="md:flex-1 md:w-2/5">
